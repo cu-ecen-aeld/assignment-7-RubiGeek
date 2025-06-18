@@ -11,7 +11,7 @@ static int hello_init(void)
 	return 0;
 }
 
-static void hello_exit(void)
+static void hello_exit(void) 
 {
 	printk(KERN_ALERT "Goodbye, RubiGeek!\n");
 }
